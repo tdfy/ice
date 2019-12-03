@@ -177,7 +177,7 @@ class SangerAnalysis:
     def find_guide_in_ctrl(self, guide_label, guide_seq, ctrl_seq):
         revcomp_guide = reverse_complement(guide_seq)
         found_seq = None
-        if guide_seq in ctrl_seq:
+        if str.encode(guide_seq) in ctrl_seq:
             cut_offset = len(guide_seq) - 3
             orientation = "fwd"
             found_seq = guide_seq
