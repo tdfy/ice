@@ -109,6 +109,7 @@ class SangerObject:
 
         phred_scores = []
         for c in traces['PCON2']:
+            print("EXPLICIT",c)
             phred_scores.append(ord(c))
         self.phred_scores = phred_scores
 
