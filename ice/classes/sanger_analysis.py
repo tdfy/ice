@@ -178,7 +178,7 @@ class SangerAnalysis:
         revcomp_guide = reverse_complement(guide_seq)
         found_seq = None
         guide_seq = guide_seq.encode()
-        print(guid_seq,ctrl_seq)
+        print(guide_seq,ctrl_seq)
         if guide_seq in ctrl_seq:
             cut_offset = len(guide_seq) - 3
             orientation = "fwd"
