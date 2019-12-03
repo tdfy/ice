@@ -109,7 +109,7 @@ class SangerObject:
 
         phred_scores = []
         for c in traces['PCON2']:
-            phred_scores.append(str.encode(c))
+            phred_scores.append(str(c))
         self.phred_scores = phred_scores
 
         override_quality_score = kwargs.get('override_quality_score', False)
