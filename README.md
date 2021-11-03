@@ -1,4 +1,9 @@
-https://www.anaconda.com/products/individual#windows
+
+Check Windows 10 bits: Start button > Settings > System > About
+
+Download Anaconda: https://www.anaconda.com/products/individual#windows
+
+conda install specific versions of dependencies: 
 
 pytest==5.2.2
 biopython>=1.70
@@ -11,6 +16,11 @@ scipy>=0.19.1
 sklearn>=0.0
 xlrd>=1.1.0
 xlsxwriter>=1.0.2
+
+
+
+
+
 
 
 
